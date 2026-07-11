@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovusED</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+        <nav>
+            <img src="NovusEd (9).png" alt="NovusED Logo" class="logo">
+
+            <ul id="nav-links">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#courses" class="nav-link">Courses</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#why" class="nav-link">Why Us</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="btn" id="enrol-btn">Enrol Now</button>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-text">
+            <h1>Empowering Healthcare Education</h1>
+
+            <p>
+                High-quality healthcare training designed to build confidence,
+                practical skills and industry knowledge.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="btn" data-scroll="#courses">Explore Courses</button>
+                <button class="btn-secondary" data-scroll="#about">Learn More</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- IMAGE SECTION -->
+
+    <section class="gallery">
+
+        <div class="gallery-text">
+            <h2>Learn From Industry Professionals</h2>
+
+            <p>
+                Our courses are designed by healthcare professionals to
+                provide practical, engaging and flexible learning experiences
+                that prepare students for real workplaces.
+            </p>
+        </div>
+
+        <div class="gallery-images">
+            <img src="Nurse 1.jpg" alt="Healthcare Training">
+            <img src="Nurse 2.jpg" alt="Healthcare Education">
+            <img src="Nurse 3.jpg" alt="Medication Training">
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+
+        <h2>About Us</h2>
+
+        <p>
+            At NovusED, we believe education has the power to transform lives.
+            We are committed to providing accessible, engaging and practical
+            healthcare training that empowers students to develop their skills,
+            grow their confidence and make a meaningful impact in the community.
+
+            Our mission is to deliver professional healthcare education that
+            prepares learners for success in today's healthcare industry.
+        </p>
+
+    </section>
+
+    <!-- COURSES -->
+
+    <section class="courses" id="courses">
+
+        <h2>Our Courses</h2>
+
+        <div class="course-container">
+
+            <!-- Accredited Course -->
+
+            <div class="card">
+
+                <div class="course-image">
+                    <img src="accredited-course.jpg"
+                    alt="Accredited Course">
+                </div>
+
+                <span class="tag accredited">
+                    Accredited
+                </span>
+
+                <h3>Assist With Medication (HLTHPS006)</h3>
+
+                <p>
+                    Nationally recognised training for healthcare workers
+                    and support staff who assist individuals with medication
+                    administration and safety procedures.
+                </p>
+
+                <a href="#" class="view-course"
+                    data-title="Assist Individuals With Medication (Accredited)"
+                    data-tag="Accredited"
+                    data-desc="Nationally recognised training for healthcare workers and support staff who assist individuals with medication administration and safety procedures. This course meets national competency standards and includes assessment leading to a certificate of completion recognised across the healthcare sector."
+                    data-points="Nationally recognised certification|Covers medication administration procedures|Includes safety and risk management modules|Assessment-based, certificate on completion">
+                    View Course →
+                </a>
+
+            </div>
+
+            <!-- Non Accredited Course -->
+
+            <div class="card">
+
+                <div class="course-image">
+                    <img src="non-accredited-course.jpg"
+                    alt="Non Accredited Course">
+                </div>
+
+                <span class="tag non-accredited">
+                    Non-Accredited
+                </span>
+
+                <h3>Assist Individuals With Medication</h3>
+
+                <p>
+                    A professional development course designed to increase
+                    confidence and medication knowledge for carers and
+                    support workers.
+                </p>
+
+                <a href="#" class="view-course"
+                    data-title="Assist Individuals With Medication (Non-Accredited)"
+                    data-tag="Non-Accredited"
+                    data-desc="A professional development course designed to increase confidence and medication knowledge for carers and support workers. A flexible, self-paced option ideal for those wanting to build practical skills without formal accreditation."
+                    data-points="Flexible, self-paced learning|Builds practical medication knowledge|Great for carers and support workers|Certificate of attendance provided">
+                    View Course →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- WHY CHOOSE US -->
+
+    <section class="why" id="why">
+
+        <h2>Why Choose NovusED?</h2>
+
+        <div class="features">
+
+            <div class="feature">
+                <h3>Industry Experts</h3>
+
+                <p>
+                    Learn from experienced healthcare educators with
+                    extensive industry knowledge.
+                </p>
+            </div>
+
+            <div class="feature">
+                <h3>Flexible Learning</h3>
+
+                <p>
+                    Study at your own pace with learning options that fit
+                    your schedule.
+                </p>
+            </div>
+
+            <div class="feature">
+                <h3>Quality Courses</h3>
+
+                <p>
+                    Professionally designed courses aligned with current
+                    healthcare practices.
+                </p>
+            </div>
+
+            <div class="feature support">
+                <h3>Student Support</h3>
+
+                <p>
+                    Friendly support available throughout your learning
+                    journey whenever you need assistance.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section class="contact-section" id="contact">
+
+        <h2>Get In Touch</h2>
+        <p class="contact-intro">
+            Have a question about our courses? Send us a message and our
+            team will get back to you.
+        </p>
+
+        <form class="contact-form" id="contact-form" novalidate>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="contact-name">Full Name</label>
+                    <input type="text" id="contact-name" name="name" placeholder="Jane Smith" required>
+                    <span class="error-msg" data-for="contact-name"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-email">Email</label>
+                    <input type="email" id="contact-email" name="email" placeholder="jane@example.com" required>
+                    <span class="error-msg" data-for="contact-email"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="contact-course">Course of Interest</label>
+                <select id="contact-course" name="course">
+                    <option value="General Enquiry">General Enquiry</option>
+                    <option value="Accredited">Assist Individuals With Medication (Accredited)</option>
+                    <option value="Non-Accredited">Assist Individuals With Medication (Non-Accredited)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="message" rows="5" placeholder="Tell us a little about what you're looking for..." required></textarea>
+                <span class="error-msg" data-for="contact-message"></span>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+
+            <p class="form-success" id="form-success" role="status"></p>
+
+        </form>
+
+    </section>
+
+    <footer>
+
+        <img src="NovusEd (9).png"
+        alt="NovusED Logo"
+        class="footer-logo">
+
+        <p>Email: info@novused.com.au</p>
+        <p>Phone: (08) 1234 5678</p>
+
+        <br>
+
+        <p>© 2026 NovusED. All Rights Reserved.</p>
+
+    </footer>
+
+    <!-- COURSE DETAIL MODAL -->
+    <div class="modal-overlay" id="course-modal">
+        <div class="modal-box">
+            <button class="modal-close" id="course-modal-close" aria-label="Close">&times;</button>
+            <span class="tag" id="modal-tag"></span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-desc"></p>
+            <ul id="modal-points"></ul>
+            <button class="btn" id="modal-enrol-btn">Enrol in This Course</button>
+        </div>
+    </div>
+
+    <!-- ENROLMENT MODAL -->
+    <div class="modal-overlay" id="enrol-modal">
+        <div class="modal-box">
+            <button class="modal-close" id="enrol-modal-close" aria-label="Close">&times;</button>
+            <h3>Enrol Now</h3>
+            <p>Fill in your details and we'll be in touch to confirm your enrolment.</p>
+
+            <form id="enrol-form" novalidate>
+                <div class="form-group">
+                    <label for="enrol-name">Full Name</label>
+                    <input type="text" id="enrol-name" name="name" placeholder="Jane Smith" required>
+                    <span class="error-msg" data-for="enrol-name"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="enrol-email">Email</label>
+                    <input type="email" id="enrol-email" name="email" placeholder="jane@example.com" required>
+                    <span class="error-msg" data-for="enrol-email"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="enrol-course">Course</label>
+                    <select id="enrol-course" name="course">
+                        <option value="Accredited">Assist Individuals With Medication (Accredited)</option>
+                        <option value="Non-Accredited">Assist Individuals With Medication (Non-Accredited)</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn">Submit Enrolment</button>
+                <p class="form-success" id="enrol-success" role="status"></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- BACK TO TOP -->
+    <button id="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
